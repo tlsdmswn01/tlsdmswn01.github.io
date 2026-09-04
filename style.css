@@ -641,7 +641,7 @@ main {
 
 :root {
   --rail: clamp(150px, 15vw, 186px);
-  --rail-gap: clamp(1.6rem, 3.4vw, 3rem);
+  --rail-gap: clamp(3.2rem, 6.8vw, 6rem);
 }
 
 .siderail {
@@ -832,4 +832,14 @@ main {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--ink-3);
+}
+
+/* jump bar: center it horizontally instead of aligning to the content column */
+@media (min-width: 701px) {
+  .jump {
+    left: 50%;
+    margin-left: 0;
+    transform: translate(-50%, -10px);
+  }
+  .jump.pinned { transform: translateX(-50%); }
 }
