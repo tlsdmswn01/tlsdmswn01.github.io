@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eunju Shin</title>
+  <meta name="description" content="Eunju Shin, integrated M.S.-Ph.D. student at Ajou University working on efficient LLMs: mixture-of-experts compression, quantization, and speech-conditioned vision-language-action models.">
+  <meta name="theme-color" content="#fbfbf9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e0e11" media="(prefers-color-scheme: dark)">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,300..700;1,300..700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=96">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23005bac'/></svg>">
+</head>
+<body>
+
+<main>
+
+  <aside class="siderail">
+    <div class="portrait">
+      <img src="assets/profile.jpg" alt="Eunju Shin" width="172" height="215" onerror="this.closest('.portrait').remove()">
+    </div>
+    <h1 class="siderail-name">Eunju Shin <span class="hangul">신은주</span></h1>
+    <p class="siderail-role">Integrated M.S.&ndash;Ph.D. Student<span class="advisor">Ajou University</span></p>
+    <nav class="siderail-links" aria-label="Contact and profiles">
+      <a href="mailto:eunjushin@ajou.ac.kr">
+        <svg class="ic" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1.4" y="3.2" width="13.2" height="9.6" rx="1.4"/><path d="m1.9 4.4 6.1 4.3 6.1-4.3"/></svg>
+        <span>Email</span>
+      </a>
+      <a href="assets/cv.pdf" target="_blank" rel="noopener">
+        <svg class="ic" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9.2 1.4H4.3a1.4 1.4 0 0 0-1.4 1.4v10.4a1.4 1.4 0 0 0 1.4 1.4h7.4a1.4 1.4 0 0 0 1.4-1.4V5.2Z"/><path d="M9.2 1.4v3.8h3.9"/><path d="M5.6 8.6h4.8M5.6 11.2h3.2"/></svg>
+        <span>CV</span>
+      </a>
+      <a href="https://www.linkedin.com/in/eunjushin01" target="_blank" rel="noopener">
+        <svg class="ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        <span>LinkedIn</span>
+      </a>
+      <!-- TODO: replace the href below with your own Google Scholar profile URL -->
+      <a href="https://scholar.google.com/citations?user=REPLACE_ME" target="_blank" rel="noopener">
+        <svg class="ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg>
+        <span>Google Scholar</span>
+      </a>
+      <a href="https://github.com/tlsdmswn01" target="_blank" rel="noopener">
+        <svg class="ic" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg>
+        <span>GitHub</span>
+      </a>
+    </nav>
+  </aside>
+
+  <div class="flow">
+
+  <section id="about" class="band reveal">
+    <h2><span>About me</span></h2>
+    <p class="lede">I look for what actually limits a model, then <span class="mark">resolve that limit through analysis and experiment</span>. <span class="scope">My work runs along two directions: efficient LLMs through architecture compression, and grounding vision-language-action models in speech.</span></p>
+    <p class="affil">I am an integrated M.S.&ndash;Ph.D. student in Artificial Intelligence at Ajou University, and a member of the <a href="https://cvl-lab.github.io/" target="_blank" rel="noopener"><strong>MMAI Lab</strong></a> (Multi-Modal Artificial Intelligence).<br>Advised by Prof. <a href="https://sites.google.com/view/jongbinryu" target="_blank" rel="noopener">Jongbin Ryu</a>.</p>
+    <p class="topics-label">Research interests</p>
+    <ul class="topics stagger">
+      <li>Efficient large language models</li>
+      <li>Efficient finetuning of quantized models</li>
+      <li>Application: sound</li>
+    </ul>
+  </section>
+
+  <div class="bar-anchor" aria-hidden="true"></div>
+  <div class="bar-rail">
+    <nav class="jump" aria-label="Jump to a section">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#wip">In progress</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <section id="news" class="band reveal">
+    <h2><span>News</span></h2>
+    <ul class="feed stagger">
+      <li><span class="when">2026</span><p>Paper accepted to <strong>EMNLP 2026</strong>: Colla-Q, collaborative experts in MoE quantization via minimax precision balancing.</p></li>
+    </ul>
+  </section>
+
+  <section id="publications" class="band reveal">
+    <h2><span>Publications</span></h2>
+
+    <div class="filterbar" hidden>
+      <div class="filters" role="group" aria-label="Filter publications by keyword">
+        <button type="button" data-key="all" aria-pressed="true">All</button>
+        <button type="button" data-key="LLM" aria-pressed="false">LLM</button>
+        <button type="button" data-key="Quantization" aria-pressed="false">Quantization</button>
+        <button type="button" data-key="MoE" aria-pressed="false">MoE</button>
+        <button type="button" data-key="EfficientAI" aria-pressed="false">EfficientAI</button>
+        <button type="button" data-key="Vision" aria-pressed="false">Vision</button>
+        <button type="button" data-key="Sound" aria-pressed="false">Sound</button>
+        <button type="button" data-key="VLA" aria-pressed="false">VLA</button>
+      </div>
+      <p class="filter-note" role="status" aria-live="polite" hidden></p>
+    </div>
+
+    <div class="year-group">
+      <span class="year">2026</span>
+      <ol class="works stagger">
+        <li class="work">
+          <div>
+            <h3>Colla-Q: Toward Collaborative Experts in MoE Quantization via Minimax Precision Balancing</h3>
+            <p class="abstract">Colla-Q takes an ensemble view of mixture-of-experts quantization, using activation entropy to balance expert performance so that zero-shot accuracy and calibration-domain stability both improve at the same average bit budget.</p>
+            <p class="byline"><strong>EunJu Shin</strong>, Jongbin Ryu</p>
+            <p class="imprint"><span class="where">Empirical Methods in Natural Language Processing, 2026</span><a>paper</a><a>code</a></p>
+          </div>
+          <ul class="tags"><li>LLM</li><li>MoE</li><li>Quantization</li><li>EfficientAI</li></ul>
+        </li>
+        <li class="work">
+          <div>
+            <h3>Don&rsquo;t Overlook the Learning Trajectory of the LoRA Adapter on Quantized LLMs</h3>
+            <p class="abstract">A-LEMA is a trajectory-aware framework that adaptively controls decay during quantized LLM fine-tuning, preserving consistently learned adapter components and improving general-task performance over existing methods.</p>
+            <p class="byline"><strong>EunJu Shin</strong><sup>*</sup>, Hankyul Kang<sup>*</sup>, Jongbin Ryu</p>
+            <p class="imprint"><span class="where">Under review</span><span class="state">2026</span><span class="state">* equal contribution</span></p>
+          </div>
+          <ul class="tags"><li>LLM</li><li>Quantization</li><li>LoRA</li><li>EfficientAI</li></ul>
+        </li>
+      </ol>
+    </div>
+
+    <div class="year-group">
+      <span class="year">2025</span>
+      <ol class="works stagger">
+        <li class="work">
+          <div>
+            <h3>Pluggable Decoder for Slimmable Neural Networks</h3>
+            <p class="abstract">A decoder that plugs into a slimmable network lets one trained model be served at several width budgets, instead of retraining a separate model for each one.</p>
+            <p class="byline">Hankyul Kang, <strong>EunJu Shin</strong>, Jongbin Ryu</p>
+            <p class="imprint"><span class="where">Under review</span><span class="state">2025</span></p>
+          </div>
+          <ul class="tags"><li>Vision</li><li>EfficientAI</li><li>Slimmable Networks</li></ul>
+        </li>
+        <li class="work">
+          <div>
+            <h3>Music Reactive Video Generation: Highlighted Chromagram and Its Evaluation Metric</h3>
+            <p class="abstract">A highlighted chromagram conditions video generation on music, paired with an evaluation metric for how well the generated video actually reacts to it.</p>
+            <p class="byline"><strong>EunJu Shin</strong><sup>*</sup>, Hankyul Kang<sup>*</sup>, Jongbin Ryu</p>
+            <p class="imprint"><span class="where">Under review</span><span class="state">* equal contribution</span></p>
+          </div>
+          <ul class="tags"><li>Sound</li><li>Multimodal</li><li>Video Generation</li></ul>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="wip" class="band reveal">
+    <h2><span>In progress</span></h2>
+    <ul class="docket stagger">
+      <li>
+        <span class="subject">Speech-conditioned VLA policies</span>
+        <p>Vision-language-action models cannot resolve ambiguous deixis &mdash; spatial referring expressions such as &ldquo;that one over there.&rdquo; Speech-spatial conditioning grounds the referred object from the speaker&rsquo;s location, so the policy acts on what was actually meant.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="experience" class="band reveal">
+    <h2><span>Experience</span></h2>
+    <ul class="grants stagger">
+      <li>
+        <span class="sum">2024&ndash;</span>
+        <div>
+          <h3>Student Researcher</h3>
+          <p class="funder"><a href="https://cvl-lab.github.io/" target="_blank" rel="noopener">MMAI Lab</a>, Ajou University<span class="term">Jan 2024 &ndash; Present</span></p>
+          <p class="project">Efficient finetuning: quantized-LoRA finetuning. Model compression: MoE quantization and slimmable networks. AI applications: speech-conditioned VLA.</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section id="education" class="band reveal">
+    <h2><span>Education</span></h2>
+    <ul class="grants stagger">
+      <li>
+        <span class="sum">Ph.D.</span>
+        <div>
+          <h3>Integrated M.S.&ndash;Ph.D. in Artificial Intelligence</h3>
+          <p class="funder">Ajou University, Suwon, Korea<span class="term">Sep 2024 &ndash; Present</span></p>
+          <p class="project">Advisor: Prof. <a href="https://sites.google.com/view/jongbinryu" target="_blank" rel="noopener">Jongbin Ryu</a></p>
+        </div>
+      </li>
+      <li>
+        <span class="sum">B.S.</span>
+        <div>
+          <h3>Business Intelligence</h3>
+          <p class="funder">Ajou University, Suwon, Korea<span class="term">Mar 2020 &ndash; Aug 2024</span></p>
+          <p class="project">GPA 4.34/4.5, ranked 2nd in the Department of Business Intelligence</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <section id="reference" class="band reveal">
+    <h2><span>Reference</span></h2>
+    <div class="colophon">
+      <p>
+        Prof. Jongbin Ryu, Associate Professor at Ajou University and my Ph.D. advisor,
+        <a href="mailto:jongbinryu@gmail.com">jongbinryu@gmail.com</a>.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <span>Eunju Shin, Suwon, South Korea</span>
+    <a href="mailto:eunjushin@ajou.ac.kr">eunjushin@ajou.ac.kr</a>
+  </footer>
+
+  <div class="tail-anchor" aria-hidden="true"></div>
+
+  </div><!-- /.flow -->
+
+</main>
+
+<script>
+(function () {
+  var calm = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var io = 'IntersectionObserver' in window;
+
+  var targets = document.querySelectorAll('.reveal');
+  if (!io || calm.matches) {
+    Array.prototype.forEach.call(targets, function (el) { el.classList.add('shown'); });
+  } else {
+    document.querySelectorAll('.stagger').forEach(function (group) {
+      var i = 0;
+      Array.prototype.forEach.call(group.children, function (child) {
+        child.style.setProperty('--i', i++);
+      });
+    });
+    // added by script, so the content stays visible if this never runs
+    document.documentElement.classList.add('reveal-ready');
+    var enter = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add('shown');
+        enter.unobserve(entry.target);
+      });
+    }, { rootMargin: '0px 0px -12% 0px', threshold: 0.05 });
+    Array.prototype.forEach.call(targets, function (el) { enter.observe(el); });
+  }
+
+  if (!io) return;
+
+  var bar = document.querySelector('.jump');
+  var sentinel = document.querySelector('.bar-anchor');
+  if (bar && sentinel) {
+    new IntersectionObserver(function (entries) {
+      bar.classList.toggle('pinned', !entries[0].isIntersecting);
+    }, { rootMargin: '-12px 0px 0px 0px', threshold: 0 }).observe(sentinel);
+  }
+
+  var sections = Array.prototype.slice.call(document.querySelectorAll('main section[id]'));
+  var links = {};
+  document.querySelectorAll('.jump a').forEach(function (a) {
+    links[a.getAttribute('href').slice(1)] = a;
+  });
+  var atEnd = false;
+  var line = 84;
+  var spy = null;
+
+  function paint() {
+    var active = null;
+    for (var i = 0; i < sections.length; i++) {
+      if (sections[i].getBoundingClientRect().top <= line) { active = sections[i].id; }
+    }
+    if (atEnd && sections.length) { active = sections[sections.length - 1].id; }
+    sections.forEach(function (s) {
+      var a = links[s.id];
+      if (!a) return;
+      var on = s.id === active;
+      a.classList.toggle('here', on);
+      if (on) { a.setAttribute('aria-current', 'true'); } else { a.removeAttribute('aria-current'); }
+    });
+  }
+
+  function build() {
+    if (spy) { spy.disconnect(); }
+    line = bar ? bar.offsetHeight + (parseFloat(getComputedStyle(bar).top) || 0) + 28 : 84;
+    var below = Math.max(0, window.innerHeight - line - 1);
+    // a one-pixel root on the reading line, so the callback fires exactly at a crossing
+    spy = new IntersectionObserver(paint, {
+      rootMargin: '-' + line + 'px 0px -' + below + 'px 0px',
+      threshold: 0
+    });
+    sections.forEach(function (s) { spy.observe(s); });
+    paint();
+  }
+
+  var tail = document.querySelector('.tail-anchor');
+  if (tail) {
+    new IntersectionObserver(function (entries) {
+      atEnd = entries[0].isIntersecting;
+      paint();
+    }, { threshold: 0 }).observe(tail);
+  }
+
+  build();
+  window.addEventListener('resize', build);
+  window.addEventListener('load', paint);
+
+})();
+
+(function () {
+  var bar = document.querySelector('.filterbar');
+  if (!bar) return;
+  var buttons = Array.prototype.slice.call(bar.querySelectorAll('button'));
+  var note = bar.querySelector('.filter-note');
+  var works = Array.prototype.slice.call(document.querySelectorAll('#publications .work'));
+  var groups = Array.prototype.slice.call(document.querySelectorAll('#publications .year-group'));
+  if (!works.length || !buttons.length) return;
+
+  var keysOf = works.map(function (w) {
+    return Array.prototype.map.call(w.querySelectorAll('.tags li'), function (t) {
+      return t.textContent.trim().toLowerCase();
+    });
+  });
+
+  function apply(key) {
+    var all = key === 'all';
+    var want = key.toLowerCase();
+    var shown = 0;
+
+    works.forEach(function (w, i) {
+      var on = all || keysOf[i].indexOf(want) > -1;
+      w.hidden = !on;
+      if (on) shown++;
+    });
+
+    var live = groups.filter(function (g) {
+      var any = Array.prototype.some.call(g.querySelectorAll('.work'), function (w) {
+        return !w.hidden;
+      });
+      g.classList.toggle('is-hidden', !any);
+      g.classList.remove('is-first', 'is-last');
+      return any;
+    });
+    if (live.length) {
+      live[0].classList.add('is-first');
+      live[live.length - 1].classList.add('is-last');
+    }
+
+    buttons.forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.dataset.key === key));
+    });
+
+    if (all || shown) {
+      note.hidden = true;
+      note.textContent = '';
+    } else {
+      note.hidden = false;
+      note.innerHTML = 'Nothing published under ' + key +
+        ' yet. <a href="#wip">See what is in progress</a>.';
+    }
+  }
+
+  buttons.forEach(function (b) {
+    b.addEventListener('click', function () {
+      apply(b.getAttribute('aria-pressed') === 'true' ? 'all' : b.dataset.key);
+    });
+  });
+
+  bar.hidden = false;
+  apply('all');
+})();
+</script>
+
+</body>
+</html>

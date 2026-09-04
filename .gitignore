@@ -1,0 +1,6 @@
+# LaTeX source for the CV lives in ../cv; only the built PDF is part of the site
+main.tex
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
